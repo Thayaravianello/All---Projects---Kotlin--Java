@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Estudos" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/Alaranjado</item>
+        <item name="colorPrimaryVariant">@color/azulClaro</item>
+        <item name="colorPrimaryContainer">@color/black</item>
+
+
+
+        <item name="colorSecondary">@color/AmareloAlaranjado</item>
+        <item name="colorSecondaryVariant">@color/azulMedio</item>
+        <item name="colorSecondaryContainer">@color/black</item>
+
+    </style>
+    <style name="Theme.Estudos" parent="Base.Theme.Estudos" />
+
+
+
+    <style name="Title" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Button" parent="Widget.AppCompat.Button">
+
+        <item name="android:background">@color/rosa</item>
+        <item name="android:radius">10dp</item>
+
+    </style>
+
+</resources>

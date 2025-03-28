@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ContactList</string>
+    <string name="lista_de_contatos">LISTA DE CONTATOS</string>
+    <string name="nome">NOME</string>
+    <string name="textview">TextView</string>
+    <string name="lista_de_contatos_descricao">Lista de contatos</string>
+    <string name="nome_do_contato">Nome do Contato</string>
+    <string name="contatos">CONTATOS</string>
+    <string name="bloquear_contato">Bloquear contato</string>
+    <string name="compartilhar_contato">Compartilhar contato</string>
+    <string name="enviar_mensagem">Enviar Mensagem</string>
+</resources>

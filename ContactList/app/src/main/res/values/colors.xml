@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    //MY COLOR
+
+
+    <color name="roxoBaby">#cdb4db</color>
+    <color name="rosaBaby">#ffc8dd</color>
+    <color name="azulBaby">#bde0fe</color>
+    <color name="amareloEscruro">#ffb703</color>
+    <color name="verdeEscuroTurqueza">#023047</color>
+    <color name="alaranjadoMedio">#fb8500</color>
+    <color name="vermelho">#c1121f</color>
+    <color name="verdeEscuroMedio">#264653</color>
+    <color name="verdeClaro">#2a9d8f</color>
+    <color name="amareloBaby">#e9c46a</color>
+    <color name="alaranjadoBaby">#f4a261</color>
+    <color name="alaranjadoMedio2">#e76f51</color>
+    <color name="cremeBaby">#fbf8cc</color>
+    <color name="cremeAlaranjadoBaby">#fde4cf</color>
+    <color name="rosaClaroBaby">#ffcfd2</color>
+    <color name="roxoClarobaby">#f1c0e8</color>
+    <color name="roxoMaisclarobaby">#cfbaf0</color>
+    <color name="azulCeu">#8eecf5</color>
+    <color name="verdeAgua">#98f5e1</color>
+    <color name="rosChoque">#f72585</color>
+    <color name="alaranjadoArrosado">#ff9f1c</color>
+    <color name="laranjaNeon">#ff9f1c</color>
+    <color name="azulMaisBaby">#cbf3f0</color>
+    <color name="verdeAguaClaro">#2ec4b6</color>
+    <color name="azulEscuroMedio">#1d2d44</color>
+    <color name="azulCinza">#3e5c76</color>
+    <color name="roxoCinza">#748cab</color>
+    <color name="creme">#f0ebd8</color>
+    <color name="laranjarosa">#f07167</color>
+    <color name="vermelhoMadami">#89023e</color>
+    <color name="verdeLimao">#d1f94d</color>
+    <color name="vermelho2">#f94144</color>
+    <color name="laranja2">#f3722c</color>
+    <color name="laranjaClaro2">#f8961e</color>
+    <color name="laranjaClaro3">#f9844a</color>
+    <color name="LaranjaAmarelo">#f9c74f</color>
+    <color name="verdeFolha">#90be6d</color>
+    <color name="verdeArvore">#43aa8b</color>
+    <color name="verdeMaisArvore">#4d908e</color>
+    <color name="cinzaVerde">#577590</color>
+    <color name="Azulverde">#277da1</color>
+
+
+
+
+</resources>

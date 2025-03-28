@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/title_header_contact"
+        style="@style/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="16dp"
+        android:background="#909EB1"
+        android:contentDescription="@string/lista_de_contatos"
+        android:padding="20dp"
+        android:text="@string/contatos"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/grid_Icon"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/grid"
+        app:layout_constraintBottom_toBottomOf="@+id/title_header_contact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/title_header_contact">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/list_incon"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/contatogrid"
+        app:layout_constraintBottom_toBottomOf="@+id/title_header_contact"
+        app:layout_constraintEnd_toStartOf="@+id/grid_Icon"
+        app:layout_constraintTop_toTopOf="@+id/title_header_contact">
+
+
+    </ImageView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_header_contact"
+        app:layout_constraintVertical_bias="0.0"
+        tools:listitem="@layout/recycle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

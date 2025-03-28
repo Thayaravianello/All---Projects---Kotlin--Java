@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.ContactList" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/azulCinza</item>
+        <item name="colorPrimaryVariant">@color/creme</item>
+        <item name="colorPrimaryContainer">@color/roxoCinza</item>
+
+        <item name="colorSecondary">@color/verdeArvore</item>
+        <item name="colorSecondaryVariant">@color/Azulverde</item>
+        <item name="colorSecondaryContainer">@color/laranjarosa</item>
+
+
+    </style>
+
+
+
+    <style name="Title" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="colorPrimary">@color/azulCinza</item>
+    </style>
+
+    <style name="Theme.ContactList" parent="Base.Theme.ContactList" />
+</resources>
