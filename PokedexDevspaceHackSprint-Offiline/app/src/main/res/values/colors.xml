@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+        //BACKGROUND TELAS
+        <color name="backgroundPokedex">#bb484b</color>
+        <color name="backgroundPokedexPreto">#2b292c</color>
+        <color name="backgroundPokedexPretoclaro">#595859</color>
+
+        //BACKGROUNDS POKEMONS
+
+        <color name="background001">#7ba691</color>
+        <color name="background002">#7ba691</color>
+        <color name="background003">#7ba691</color>
+        <color name="background004">#e7d09f</color>
+        <color name="background005">#c37563</color>
+        <color name="background006">#e4a46d</color>
+        <color name="background007">#89b6c4</color>
+        <color name="background008">#a5b0ce</color>
+        <color name="background009">#9badce</color>
+        <color name="background0010">#9ac680</color>
+        <color name="background0011">#b5cd82</color>
+        <color name="background0012">#6d6883</color>
+        <color name="background0013">#678A95</color>
+        <color name="background0014">#DB5280</color>
+
+
+
+
+
+</resources>
