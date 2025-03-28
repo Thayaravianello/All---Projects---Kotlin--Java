@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Project3" parent="Theme.Material3.DayNight.NoActionBar">
+
+
+        <!-- CORES PRIMARIAS-->
+
+        <item name="colorPrimary">@color/verdeEscuro</item>
+        <item name="colorPrimaryVariant">@color/amarelo</item>
+        <item name="colorOnPrimary">@color/white</item> // aqui se aplica texto
+
+
+
+        <!--CORES SECUNDARIAS -->
+
+        <item name="colorSecondary">@color/alaranjado</item>
+        <item name="colorSecondaryVariant">@color/verdeEscuro</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+
+        <!-- COR DA BARRA DE STATUS-->
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+
+        <!--CUSTOMIZAÇÃO DO TEMA -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColor">#0E404B</item>
+
+
+
+
+
+    </style>
+
+    <style name="Theme.Project3" parent="Base.Theme.Project3" />
+</resources>

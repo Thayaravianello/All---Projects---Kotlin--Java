@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DevspaceApp1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="digite_seu_peso_ex_70_5"> Digite seu peso. (Ex: 70.5)</string>
+    <string name="digite_a_sua_altura_ex_1_70">Digite a sua altura (Ex: 1.70)</string>
+    <string name="button">Button</string>
+    <string name="calcular">calcular</string>
+</resources>

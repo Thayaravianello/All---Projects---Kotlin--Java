@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="sortear"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/text_clique_no_botao"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#43AA8B"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Escolha um numero de 1 a 60"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/texto_sorteio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF6B6B"
+        android:gravity="center"
+        android:onClick="sortear"
+        android:text="Jogar"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/text_clique_no_botao"
+        app:layout_constraintTop_toBottomOf="@+id/text_clique_no_botao" />
+
+    <TextView
+        android:id="@+id/num_selecionado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Nenhum nº selecionado"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_sorteio" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
